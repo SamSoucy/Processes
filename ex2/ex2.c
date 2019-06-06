@@ -8,7 +8,9 @@
 
 int main(void)
 {
-    // Your code here 
-    
+    FILE *fp;
+    fp = fopen("text.txt", "w+");
+    fprintf(fp, "This is a test");
+     
     return 0;
 }
