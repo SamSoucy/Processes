@@ -10,7 +10,8 @@ int main(void)
 {
     FILE *fp;
     fp = fopen("text.txt", "w+");
-    fprintf(fp, "This is a test");
+    fork();
+    fprintf(fp, "This is a test\n");
      
     return 0;
 }
