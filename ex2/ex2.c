@@ -8,7 +8,10 @@
 
 int main(void)
 {
-    // Your code here 
-    
+    FILE *fp;
+    fp = fopen("text.txt", "w+");
+    fork();
+    fprintf(fp, "This is a test\n");
+     
     return 0;
 }

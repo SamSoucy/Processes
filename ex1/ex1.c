@@ -8,7 +8,9 @@
 
 int main(void)
 {
-    // Your code here
+    int x = 50;
+    fork();
+    printf("x is %d\n", x);
 
     return 0;
 }

@@ -10,7 +10,8 @@
 
 int main(void)
 {
-    // Your code here    
-
+    fork();
+    execl("/bin/ls", "ls");
+    
     return 0;
 }
