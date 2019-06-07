@@ -16,7 +16,6 @@ char* msg3 = "hello world #3";
 
 int main(void)
 {
-
     char buffer[MSGSIZE];
     int p[2];
 
